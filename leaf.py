@@ -74,7 +74,7 @@ def predict():
         filename = file.filename        
         print("@@ Input posted = ", filename)
         
-        file_path = os.path.join('C:\Users\potur\OneDrive\Desktop\Plant-Leaf-Disease-Prediction-main\Plant-Leaf-Disease-Prediction-main\static\upload', filename)
+        file_path = os.path.join('upload', filename)
         file.save(file_path)
 
         print("@@ Predicting class......")
